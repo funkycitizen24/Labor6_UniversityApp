@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafx.controllers.StudentStart">
+    <children>
+        <Text fx:id="idCourses" fill="WHITE" layoutX="71.0" layoutY="114.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="228.803466796875">
+            <font>
+                <Font size="20.0" />
+            </font></Text>
+        <Button layoutX="71.0" layoutY="42.0" mnemonicParsing="false" onAction="#showAvailableCoursesAction" prefHeight="25.0" prefWidth="150.0" text="Show Available Courses">
+            <font>
+                <Font name="System Bold Italic" size="12.0" />
+            </font>
+        </Button>
+        <TextField fx:id="idCourse" layoutX="422.0" layoutY="106.0" prefHeight="25.0" prefWidth="117.0" promptText="Course Id" />
+        <Button layoutX="446.0" layoutY="147.0" mnemonicParsing="false" onAction="#registerStudentAction" text="Enroll Me">
+            <font>
+                <Font name="System Bold Italic" size="12.0" />
+            </font></Button>
+        <Button layoutX="417.0" layoutY="205.0" mnemonicParsing="false" onAction="#showTotalCreditsAction" text="Show Total Credits: ">
+            <font>
+                <Font name="System Bold Italic" size="12.0" />
+            </font></Button>
+        <Text fx:id="idTotalCreditsText" layoutX="553.0" layoutY="225.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="40.803466796875">
+            <font>
+                <Font size="18.0" />
+            </font>
+        </Text>
+        <Text fx:id="idRegister" fill="WHITE" layoutX="417.0" layoutY="196.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="177.33333333333337" />
+    </children>
+</AnchorPane>

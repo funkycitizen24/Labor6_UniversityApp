@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafx.controllers.TeacherStart">
+    <children>
+        <Button layoutX="220.0" layoutY="174.0" mnemonicParsing="false" onAction="#showAvailableCoursesAction" text="Show courses' details">
+            <font>
+                <Font name="System Bold" size="12.0" />
+            </font>
+        </Button>
+        <Text fx:id="idCoursesDetails" fill="#f8f8f8" layoutX="71.0" layoutY="114.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="217.33670043945312">
+            <font>
+                <Font size="20.0" />
+            </font>
+        </Text>
+        <Text fill="WHITE" layoutX="378.0" layoutY="233.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Please refresh to see the changes." wrappingWidth="188.0000122070312" />
+      <Button layoutX="217.0" layoutY="223.0" mnemonicParsing="false" text="Show Enrolled Students" />
+    </children>
+</AnchorPane>
